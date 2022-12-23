@@ -43,7 +43,7 @@
 
 # to know detail
 | name | project | github | 
-| :----:| :----: | :----: |:----: | :----:  |
+| :----:| :----: | :----: |
 | 4season | [project](https://www.4seasons-dataset.com/) | |
 | AUTOMATUM DATA | [project](https://automatum-data.com/get-free-dataset) | |
 
