@@ -28,11 +28,21 @@
 | Oxford RobotCar Dataset | long-term 感觉场景不适合 |  [Github](https://github.com/ori-mrg/robotcar-dataset-sdk) | [project](https://robotcar-dataset.robots.ox.ac.uk/) | | 
 | Velodyne SLAM - Dataset | 一个论文里的，还没用 | [project](https://www.mrt.kit.edu/z/publ/download/velodyneslam/dataset.html) | | |
 | LIBRE:LiDAR Benchmark Reference dataset | multi lidar dataset |  [project](https://sites.google.com/g.sp.m.is.nagoya-u.ac.jp/libre-dataset/)| | | 
-## road markings
-- [Serm dataset](https://github.com/SeRM-dataset/dataset)
-- [CeyMo Road Marking Dataset](https://github.com/oshadajay/CeyMo)
-- [comma10k](https://github.com/commaai/comma10k)
 
+## road markings
+| name | description| project| github|code |
+| :----: | :----: | :----: | :----: | :----:|
+| Road Marking Detection | 标注文件里label是bbox，总共1443张图片 |  [Road Marking Detection](http://www.ananth.in/RoadMarkingDetection.html) | | |
+| VPGNet | need form application | | | |
+| TrOM| [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8317749) |  | [baiduwangpan]() | |
+| RMD (Road Marking Dataset) | 论文[1]里 | | | |
+| Serm | | | [Serm dataset](https://github.com/SeRM-dataset/dataset) | |
+| Ceymo | | | [CeyMo Road Marking Dataset](https://github.com/oshadajay/CeyMo) | |
+| comma10k | only lanes | | [comma10k](https://github.com/commaai/comma10k) | |
+
+### compare from papers
+from [paper](1)
+![](images/2022-12-26-15-52-00.png) 
 # AVP、parking slot
 | name | description | link | road markings | seg-code | 
 | :----:| :----: | :----: |:----: | :----:  |
@@ -47,3 +57,5 @@
 | 4season | [project](https://www.4seasons-dataset.com/) | |
 | AUTOMATUM DATA | [project](https://automatum-data.com/get-free-dataset) | |
 
+# Reference
+[1]: Wu J, Liu W, Maruyama Y. Automated Road-Marking Segmentation via a Multiscale Attention-Based Dilated Convolutional Neural Network Using the Road Marking Dataset[J]. Remote Sensing, 2022, 14(18): 4508.
